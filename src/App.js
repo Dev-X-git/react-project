@@ -39,6 +39,14 @@ function App() {
                 </PrivateRoute>
               }
             />
+               <Route
+              path="/add-ticket"
+              element={
+                <PrivateRoute>
+                  <AddTicket />
+                </PrivateRoute>
+              }
+            />
             <Route
               path="tickets"
               element={
